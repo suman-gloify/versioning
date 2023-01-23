@@ -10,6 +10,3 @@ class UserSerializer(base_serializers.UserSerializer):
 
     def get_full_name(self, obj):
         return '{0} {1}'.format(obj.first_name, obj.last_name)
-
-
-print("Hiii")
